@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Its a program , a devops tool used for source code management";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "A website, cloud-based service that helps developers store and manage their code, also to track and control changes to their code";
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+let gitInitDefinition = "initialize a local repo right here in this folder";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+let gitCloneDefinition = "Command is used to create a copy of specific repo or branch within a repo";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+let gitStatusDefinition = "tell me about this repo";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,9 @@
 */
 
 //CODE HERE
+let gitAddDefinition = "add some files to be tracked (always!)";
+let gitAddCode = "git add .";
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +72,8 @@
 */
 
 //CODE HERE
-
+let gitCommitDefinition = "creates a snapshot of the files I'm tracking";
+let gitCommitCode = "git commit -m "intial commit"";
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +82,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "pushing files/repos to Github from Git"

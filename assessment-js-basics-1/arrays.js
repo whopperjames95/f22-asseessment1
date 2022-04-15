@@ -4,7 +4,8 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-const colorCopy = ['red', 'green', 'black']
+
+const colorCopy = faveColors.slice(0, 3)
 
 
 
