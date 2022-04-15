@@ -19,3 +19,30 @@
 //     console.log("It's fine.");
 // }
 
+
+const readline = require("readline");
+
+const reader = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
+
+reader.question("Type in a password!", fucntion(password)
+//    console.log(password);
+//    console.log(password.length);
+   if(password.length >= 10 && password.length <= 20 && passwordincludes("!")) {
+       console.log("Sick password bro");
+   } else {
+       console.log("Your password is not long enough :(.");
+   }
+
+   reader.close();
+})
+
+
+
+
+
+
+
+
